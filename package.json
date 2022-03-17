@@ -1,0 +1,23 @@
+{
+  "name": "vite_importmetaurl_test",
+  "private": true,
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "vite",
+    "build": "rimraf dist && vite build",
+    "webpack": "rimraf dist && webpack build",
+    "serve": "serve dist",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "rimraf": "^3.0.2",
+    "serve": "^13.0.2",
+    "vite": "^2.8.0",
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2"
+  },
+  "dependencies": {
+    "copy-webpack-plugin": "^10.2.4",
+    "lib_importmetaurl_dot": "^0.0.1"
+  }
+}
